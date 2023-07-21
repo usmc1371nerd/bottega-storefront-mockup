@@ -1,58 +1,82 @@
-<div class="focus-items">
-    
-    <div class="focus-title"> 
-        <h2>Focus Items</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Cart</title>
+</head>
+<body>
+    <script type="text/javascript" src="./app.js"></script>
+    <h1>Shopping Cart</h1>
+
+<div class="shopping-cart">
+
+
+
+  <div class="product">
+    <div class="product-image">
+      <img src="./images/college-shirt.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Shirt</div>
+      <p class="product-description">Classic fitting T's</p>
+    </div>
+    <div class="product-price">19.99</div>
+    <div class="product-quantity">
+      <input type="number" value="2" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
     </div>
 
-<div class="items-container">
-<div class="items">
-    
-<img src="./images/college-shirt.jpg">
-<section class="shirt-price">Price: 19.99 </section>
-<section class="description">1 navy blue shirt</section>
+  </div>
 
-<div class="drop-down">
-<select name="size" id="size-shirt">
-<option value="size" value="large">small</option>
-<option value="size" value="large">medium</option>
-<option value="size" value="large">large</option>
-
-</select>
-<button>+</button>
-</div>
-</div>
-
-<div class="items">
-    <img src="./images/college-shirt.jpg">
-    <section class="shirt-price">Price: 19.99 </section>
-    <section class="description">1 navy blue shirt</section>
-    
-    <div class="drop-down">
-    <select name="size" id="size-shirt">
-    <option value="size" value="large">small</option>
-    <option value="size" value="large">medium</option>
-    <option value="size" value="large">large</option>
-    
-    </select>
-    <button>+</button>
+  <div class="product">
+    <div class="product-image">
+      <img src="./images/college-shirt.jpg">
     </div>
-</div>
-
-<div class="items">
-    <img src="./images/college-shirt.jpg">
-    <section class="shirt-price">Price: 19.99 </section>
-    <section class="description">1 navy blue shirt</section>
-    
-    <div class="drop-down">
-    <select name="size" id="size-shirt">
-    <option value="size" value="large">small</option>
-    <option value="size" value="large">medium</option>
-    <option value="size" value="large">large</option>
-    
-    </select>
-    <button>+</button>
+    <div class="product-details">
+      <div class="product-title">Shirt</div>
+      <p class="product-description">Classic fitting T's</p>
     </div>
-</div>
-</div>
+    <div class="product-price">19.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price"></div>
+  </div>
+
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">0.00</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">0.00</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">0.00</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">0.00</div>
+    </div>
+  </div>
+      
+      <button class="checkout">Checkout</button>
 
 </div>
+</body>
+</html>
+
+
