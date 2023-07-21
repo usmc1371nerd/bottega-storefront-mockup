@@ -81,7 +81,7 @@ a:hover {
     font-size: 25px;
     
 }
-/* ------------items------------- */
+/* ---------------------------------items--------------------------------------- */
 .items {
 
     display: flex;
@@ -137,7 +137,8 @@ a:hover {
     background-image: url(./images/college-friends.jpg);
     background-repeat: no-repeat;
     justify-content: center;
-  
+  padding: 15px;
+  margin-left: -15px;
 }
 
 
