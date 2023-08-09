@@ -1,0 +1,36 @@
+body  {
+    background-color:lightblue
+}
+
+
+input {
+    background: silver;
+    margin-left: 3px;
+    margin-top: 15px;
+   
+}
+
+
+
+::placeholder {
+    color: red;
+}
+
+.zip-info input {
+    margin-left: 13px;
+}
+
+.btn {
+    cursor: pointer;
+
+}
+
+.btn:hover {
+
+    background: green;
+    color: white;
+}
+
+.cvv input {
+     margin-left: 27px;
+}

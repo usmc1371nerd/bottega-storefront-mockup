@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f3a535068b.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="checkout.css">
     <title>Checkout</title>
 </head>
 <body>
@@ -11,8 +13,8 @@
           
             <form action="/confirm.html">
       
-              <div class="row">
-                <div class="col-50">
+              <div class="customer-info">
+                <div class="billing-info">
                   <h3>Billing Address</h3>
                   <label for="fname"><i class="fa fa-user"></i> Full Name</label>
                   <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
@@ -23,19 +25,19 @@
                   <label for="city"><i class="fa fa-institution"></i> City</label>
                   <input type="text" id="city" name="city" placeholder="New York">
       
-                  <div class="row">
-                    <div class="col-50">
+                  <div class="state-zip">
+                    <div class="state-info">
                       <label for="state">State</label>
                       <input type="text" id="state" name="state" placeholder="NY">
                     </div>
-                    <div class="col-50">
+                    <div class="zip-info">
                       <label for="zip">Zip</label>
                       <input type="text" id="zip" name="zip" placeholder="10001">
                     </div>
                   </div>
                 </div>
       
-                <div class="col-50">
+                <div class="payment-info">
                   <h3>Payment</h3>
                   <label for="fname">Accepted Cards</label>
                   <div class="icon-container">
@@ -51,12 +53,12 @@
                   <label for="expmonth">Exp Month</label>
                   <input type="text" id="expmonth" name="expmonth" placeholder="September">
       
-                  <div class="row">
-                    <div class="col-50">
+                  <div class="exp-cvv-info">
+                    <div class="exp-year">
                       <label for="expyear">Exp Year</label>
                       <input type="text" id="expyear" name="expyear" placeholder="2018">
                     </div>
-                    <div class="col-50">
+                    <div class="cvv">
                       <label for="cvv">CVV</label>
                       <input type="text" id="cvv" name="cvv" placeholder="352">
                     </div>
